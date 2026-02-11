@@ -1,0 +1,11 @@
+[project]
+name = "drissionpage-browser"
+version = "0.1.0"
+description = "DrissionPage browser automation server for OpenClaw"
+requires-python = ">=3.10"
+dependencies = [
+    "DrissionPage>=4.1.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "pydantic>=2.0.0",
+]
